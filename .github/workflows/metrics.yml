@@ -15,7 +15,7 @@ jobs:
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_gist: metrics
+          committer_gist: ${{ secrets.GIST }}
           output_action: gist
           config_order: base, isocalendar, languages
           config_timezone: Asia/Shanghai
