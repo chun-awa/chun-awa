@@ -13,7 +13,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_gist: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
           config_order: base, isocalendar, languages
           config_timezone: Asia/Shanghai
