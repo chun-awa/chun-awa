@@ -27,4 +27,4 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_details: percentage
           plugin_languages_skipped: chun-awa.github.io
-          plugin_languages_limit: 6
+          plugin_languages_limit: 8
