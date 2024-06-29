@@ -1,5 +1,5 @@
 ## Hi there 👋
-I'm chun-awa, a student in China.
+I'm chun-awa, a student from China.
 
 ### Workspace
 ![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge) ![Windows Server 2022](https://img.shields.io/badge/Windows%20Server%202022-0?style=for-the-badge&logo=windows&logoColor=white&color=blue) ![i3](https://img.shields.io/badge/i3-52C0FF?style=for-the-badge&logo=i3&logoColor=white) ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
