@@ -14,7 +14,7 @@
 ![Intel HD Graphics 4000](https://img.shields.io/badge/Intel_HD_Graphics_4000-0071C5?style=for-the-badge&logo=intel&logoColor=white)
 ![HDD 500GB](https://img.shields.io/badge/HDD-500GB-0071C5?style=for-the-badge)
 [![Windows 10](https://img.shields.io/badge/Windows_10-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://betawiki.net/wiki/Windows_10)
-[![Alpine Linux](https://img.shields.io/badge/Alpine_Linux-0D597F?style=for-the-badge&logo=alpine-linux&logoColor=white)](https://alpinelinux.org)
+[![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://alpinelinux.org)
 [![Google Chrome](https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://www.google.com/chrome/)
 [![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
 
