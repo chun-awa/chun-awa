@@ -32,7 +32,7 @@ jobs:
           plugin_lines_sections: base
           plugin_lines_delay: 30
           plugin_followup: yes
-          plugin_followup_sections: repositories, user
+          plugin_followup_sections: user
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_sections: os-graphs, projects-graphs, editors
