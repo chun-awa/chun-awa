@@ -17,10 +17,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_gist: ${{ secrets.GIST }}
           output_action: gist
-          config_order: base, isocalendar, languages
           config_timezone: Asia/Shanghai
-          base: header
-          base_indepth: yes
+          config_padding: 0, -5%
+          base: header, metadata
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
@@ -32,3 +31,4 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_sections: os-graphs, projects-graphs, editors
           plugin_wakatime_days: 30
+          config_order: base.header, isocalendar, languages, wakatime
