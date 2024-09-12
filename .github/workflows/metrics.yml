@@ -30,4 +30,4 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_sections: os-graphs, projects-graphs, editors
           plugin_wakatime_days: 30
-          config_order: base.header, isocalendar, languages, wakatime
+          config_order: base.header
