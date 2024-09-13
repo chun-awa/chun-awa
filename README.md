@@ -9,4 +9,4 @@
 ![WakaTime](https://wakatime.com/badge/user/4839471a-b97a-46ca-b720-cfd376c8c28f.svg?style=for-the-badge)
 ![Profile Views](https://komarev.com/ghpvc/?username=chun-awa&style=for-the-badge)
 
-![Metrics](https://gist.githubusercontent.com/chun-awa/0ed0625bed76b05c5e79f3312b7e3d95/raw/metrics.svg)
+![Metrics](https://chun-awa.github.io/chun-awa/metrics.svg)
