@@ -26,8 +26,7 @@ jobs:
           plugin_languages_details: percentage, bytes-size, lines
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_sections: time, os-graphs, projects-graphs, editors-graphs
-          plugin_wakatime_repositories_visibility: public
+          plugin_wakatime_sections: time, os-graphs, projects-graphs, editors
           plugin_wakatime_days: 30
           config_order: base.header, isocalendar, languages, wakatime
       - uses: actions/upload-artifact@v4
