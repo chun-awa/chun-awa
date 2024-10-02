@@ -15,19 +15,16 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           output_action: none
           config_timezone: Asia/Shanghai
-          config_padding: 0, +10%
-          base: header, metadata, repositories
+          config_padding: 0, +3%
+          base: header, metadata
           base_indepth: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_categories: markup, programming
-          plugin_languages_details: percentage, bytes-size, lines
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_sections: time, os-graphs, projects-graphs, editors
           plugin_wakatime_days: 30
-          config_order: base.header, base.repositories, isocalendar, languages, wakatime
+          config_order: base.header, isocalendar, languages, wakatime
       - uses: actions/upload-artifact@v4
         with:
           name: metrics
