@@ -13,7 +13,6 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
           output_action: none
           config_timezone: Asia/Shanghai
           config_padding: 0, +10%
