@@ -6,7 +6,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions: read-all
+    permissions: none
     steps:
       - uses: lowlighter/metrics@latest
         with:
