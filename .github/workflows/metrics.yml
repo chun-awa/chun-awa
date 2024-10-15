@@ -1,0 +1,42 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    environment: production
+    permissions: {}
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output_action: none
+          config_timezone: Asia/Shanghai
+          config_padding: 0, +6%
+          base: header, metadata
+          base_indepth: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_order: base.header, isocalendar, languages, wakatime
+      - uses: actions/upload-artifact@v4
+        with:
+          name: metrics
+          path: /metrics_renders/metrics.svg
+  deploy:
+    needs: github-metrics
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: metrics
+      - uses: actions/deploy-pages@v4
