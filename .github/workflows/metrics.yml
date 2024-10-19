@@ -15,7 +15,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           output_action: none
           config_timezone: Asia/Shanghai
-          config_padding: 0, +8%
           base: header, metadata
           base_indepth: yes
           plugin_isocalendar: yes
