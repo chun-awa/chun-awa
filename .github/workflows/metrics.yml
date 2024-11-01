@@ -15,11 +15,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           output_action: none
           config_timezone: Asia/Shanghai
-          base: header, metadata
-          base_indepth: yes
+          base: metadata
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          config_order: base.header, isocalendar, languages, wakatime
+          config_order: isocalendar
       - uses: actions/upload-artifact@v4
         with:
           name: metrics
