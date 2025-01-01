@@ -19,6 +19,9 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           config_order: isocalendar
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_sections: base
       - uses: actions/upload-artifact@v4
         with:
           name: metrics
