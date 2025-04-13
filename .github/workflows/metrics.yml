@@ -11,6 +11,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     permissions:
       pages: write
+      id-token: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
